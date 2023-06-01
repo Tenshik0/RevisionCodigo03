@@ -1,13 +1,13 @@
 // Tenemos un li de productos
-
+// Cambiamos el nombre de las imagenes para que todos sean zapatos y no haya, taco o zapato.
 const productos = [
-  { nombre: "Zapato negro", tipo: "zapato", color: "negro", img: "./taco-negro.jpg" },
-  { nombre: "Zapato azul", tipo: "zapato", color: "azul", img: "./taco-azul.jpg" },
+  { nombre: "Zapato negro", tipo: "zapato", color: "negro", img: "./zapato-negro.jpg" },
+  { nombre: "Zapato azul", tipo: "zapato", color: "azul", img: "./zapato-azul.jpg" },
   { nombre: "Bota negra", tipo: "bota", color: "negro", img: "./bota-negra.jpg" },
   { nombre: "Bota azul", tipo: "bota", color: "azul", img: "./bota-azul.jpg" },
   { nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./zapato-rojo.jpg" }
 ]
-// Se pone por Id la busqueda
+// Se cambia de getElementByName a getElementById, ya que se obtiene el id
 const li = document.getElementById("lista-de-productos")
 // agarrando el input con Id
 const $i = document.getElementById("colorTipo");
